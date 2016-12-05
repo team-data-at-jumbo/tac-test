@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_3rQV0LrAEeaVO8nWpPoP6Q" name="in_file.csv" dataPackage="_3rSyELrAEeaVO8nWpPoP6Q" Server="Localhost 127.0.0.1" FilePath="/home/danielj/tmp/DATA-167/2015Q2/2016-01-13_quartly_lotteries_provider_volumn_2015Q2.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" RemoveEmptyRow="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_3rSyELrAEeaVO8nWpPoP6Q" name="default" dataManager="_3rQV0LrAEeaVO8nWpPoP6Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_3rTZILrAEeaVO8nWpPoP6Q" id="_oG2MwLrAEeaVO8nWpPoP6Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3rTZIbrAEeaVO8nWpPoP6Q" label="node" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3rTZIrrAEeaVO8nWpPoP6Q" label="quarter" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3rTZI7rAEeaVO8nWpPoP6Q" label="provider" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3rTZJLrAEeaVO8nWpPoP6Q" label="customers_who_purchased_at_least_once" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
